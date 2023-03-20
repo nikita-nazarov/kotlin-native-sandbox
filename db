@@ -1,0 +1,4 @@
+lldb \
+    -o "target create $1.kexe" \
+    -o "add-dsym $1.kexe.dSYM/Contents/Resources/DWARF/$1.kexe" \
+    -o "command script import \"/Users/nikitanazarov/IdeaProjects/kotlin/kotlin-native/dist/tools/konan_lldb.py\""
