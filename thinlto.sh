@@ -34,10 +34,10 @@ llvm-lto --thinlto-action=thinlink summaries/* -o index.bc
 #wait
 
 
-# echo "Internalising"
-# /Users/nikitanazarov/Projects/llvm-project/build/bin/llvm-lto --thinlto-action=internalize summaries/* --thinlto-index=index.bc --exported-symbol=_LONG_RANGE_TO
-# mv summaries/*thinlto* internalised/
-# for file in internalised/*; do mv "${file}" "${file//\.thinlto.internalized.bc/}"; done
+ echo "Internalising"
+ /Users/nikitanazarov/Projects/llvm-project/build/bin/llvm-lto --thinlto-action=internalize summaries/* --thinlto-index=index.bc --exported-symbol=_LONG_RANGE_TO
+ mv summaries/*thinlto* internalised/
+ for file in internalised/*; do mv "${file}" "${file//\.thinlto.internalized.bc/}"; done
 
 
 #for file in promoted/* 
@@ -48,8 +48,8 @@ llvm-lto --thinlto-action=thinlink summaries/* -o index.bc
 #wait
 
 echo "Importing"
-/Users/nikitanazarov/Projects/llvm-project/build/bin/llvm-lto --thinlto-action=import summaries/* --thinlto-index=index.bc
-mv summaries/*thinlto* imported/
+/Users/nikitanazarov/Projects/llvm-project/build/bin/llvm-lto --thinlto-action=import internalised/* --thinlto-index=index.bc
+mv internalised/*thinlto* imported/
 for file in imported/*; do mv "${file}" "${file//\.thinlto.imported.bc/}"; done
 
 for file in imported/* 

@@ -1,4 +1,4 @@
-KOTLINC_DIST=/Users/nikitanazarov/IdeaProjects/kotlin/kotlin-native/dist/bin/kotlinc-native 
+KOTLINC_DIST=~/IdeaProjects/kotlin/kotlin-native/dist/bin/kotlinc-native 
 
 build:
 	kotlinc-native -g main.kt -o demo # -Xdump-directory=demo.kexe.dSYM/ -Xphases-to-dump=ALL
@@ -19,10 +19,10 @@ llvm-dist:
 	$(KOTLINC_DIST) -g --print_bitcode -e testing.main example/example.kt 2> example/new_llvm.ir -o example	
 
 out:
-	$(KOTLINC_DIST) -Xtemporary-files-dir=tmp -Xproduce-framework-bitcode main.kt
+	uAVA_OPTS="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005" $(KOTLINC_DIST) -Xtemporary-files-dir=tmp -Xproduce-framework-bitcode main.kt
 
 in:
-	$(KOTLINC_DIST) -Xread-framework-bitcode main.kt -Xtemporary-files-dir=optimised
+	$(KOTLINC_DIST) -Xread-framework-bitcode main.kt -Xtemporary-files-dir=tmp
 
 fresh: clean out-bitcode in-bitcode
 

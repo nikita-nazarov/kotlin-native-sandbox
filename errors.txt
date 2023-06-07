@@ -1,532 +1,350 @@
-error: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld invocation reported errors
-
-The /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld command returned non-zero exit code: 1.
-output:
-Undefined symbols for architecture arm64:
-  "_Kotlin_destroyRuntimeMode", referenced from:
-      _Kotlin_initRuntimeIfNeeded in result.o
-      (anonymous namespace)::deinitRuntime((anonymous namespace)::RuntimeState*, bool) (.llvm.15918353773266050053) in result.o
-  "_Kotlin_mimallocUseDefaultOptions", referenced from:
-      _Kotlin_initRuntimeIfNeeded in result.o
-  "_Kotlin_workerExceptionHandling", referenced from:
-      WorkerInit(MemoryState*) in result.o
-  "_blockCopyHelper", referenced from:
-      _.llvm.9123982641332759423.2191 in result.o
-      _.llvm.9123982641332759423.2193 in result.o
-  "_blockDisposeHelper", referenced from:
-      _.llvm.9123982641332759423.2191 in result.o
-      _.llvm.9123982641332759423.2193 in result.o
-  "_convertBlock0", referenced from:
-      _.llvm.9123982641332759423.2222 in result.o
-  "_convertBlock1", referenced from:
-      _.llvm.9123982641332759423.2222 in result.o
-  "_convertBlock2", referenced from:
-      _.llvm.9123982641332759423.2222 in result.o
-  "_convertBlock3", referenced from:
-      _.llvm.9123982641332759423.2222 in result.o
-  "_kclass:kotlin.Char.Companion", referenced from:
-      _.llvm.9123982641332759423.1912 in result.o
-  "_kclass:kotlin.Double.Companion", referenced from:
-      _.llvm.9123982641332759423.1915 in result.o
-  "_kclass:kotlin.Float.Companion", referenced from:
-      _.llvm.9123982641332759423.1919 in result.o
-  "_kclass:kotlin.Int.Companion", referenced from:
-      _.llvm.9123982641332759423.1914 in result.o
-  "_kclass:kotlin.Long.Companion", referenced from:
-      _.llvm.9123982641332759423.1916 in result.o
-  "_kclass:kotlin.collections.AbstractList.Companion", referenced from:
-      _.llvm.9123982641332759423.2130 in result.o
-  "_kclass:kotlin.collections.AbstractSet.Companion", referenced from:
-      _.llvm.9123982641332759423.2131 in result.o
-  "_kclass:kotlin.collections.HashMap.Companion#internal", referenced from:
-      _.llvm.9123982641332759423.2118 in result.o
-  "_kclass:kotlin.native.Platform", referenced from:
-      _.llvm.9123982641332759423.1979 in result.o
-  "_kextname:kotlin.ArrayIndexOutOfBoundsException", referenced from:
-      _.llvm.9123982641332759423.500 in result.o
-  "_kextname:kotlin.Boolean", referenced from:
-      _.llvm.9123982641332759423.398 in result.o
-  "_kextname:kotlin.Byte", referenced from:
-      _.llvm.9123982641332759423.601 in result.o
-  "_kextname:kotlin.Char", referenced from:
-      _.llvm.9123982641332759423.418 in result.o
-  "_kextname:kotlin.ClassCastException", referenced from:
-      _.llvm.9123982641332759423.507 in result.o
-  "_kextname:kotlin.Double", referenced from:
-      _.llvm.9123982641332759423.583 in result.o
-  "_kextname:kotlin.Enum", referenced from:
-      _.llvm.9123982641332759423.430 in result.o
-  "_kextname:kotlin.Error", referenced from:
-      _.llvm.9123982641332759423.486 in result.o
-  "_kextname:kotlin.Exception", referenced from:
-      _.llvm.9123982641332759423.437 in result.o
-  "_kextname:kotlin.Float", referenced from:
-      _.llvm.9123982641332759423.622 in result.o
-  "_kextname:kotlin.IllegalArgumentException", referenced from:
-      _.llvm.9123982641332759423.465 in result.o
-  "_kextname:kotlin.IllegalStateException", referenced from:
-      _.llvm.9123982641332759423.472 in result.o
-  "_kextname:kotlin.IndexOutOfBoundsException", referenced from:
-      _.llvm.9123982641332759423.458 in result.o
-  "_kextname:kotlin.Int", referenced from:
-      _.llvm.9123982641332759423.571 in result.o
-  "_kextname:kotlin.Long", referenced from:
-      _.llvm.9123982641332759423.592 in result.o
-  "_kextname:kotlin.NoSuchElementException", referenced from:
-      _.llvm.9123982641332759423.444 in result.o
-  "_kextname:kotlin.NullPointerException", referenced from:
-      _.llvm.9123982641332759423.493 in result.o
-  "_kextname:kotlin.OutOfMemoryError", referenced from:
-      _.llvm.9123982641332759423.535 in result.o
-  "_kextname:kotlin.RuntimeException", referenced from:
-      _.llvm.9123982641332759423.451 in result.o
-  "_kextname:kotlin.Short", referenced from:
-      _.llvm.9123982641332759423.610 in result.o
-  "_kextname:kotlin.Throwable", referenced from:
-      _.llvm.9123982641332759423.642 in result.o
-  "_kextname:kotlin.Throwable.$<init>$lambda$0$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.635 in result.o
-  "_kextname:kotlin.Throwable.ExceptionTraceBuilder", referenced from:
-      _.llvm.9123982641332759423.632 in result.o
-  "_kextname:kotlin.UByte", referenced from:
-      _.llvm.9123982641332759423.1670 in result.o
-  "_kextname:kotlin.UInt", referenced from:
-      _.llvm.9123982641332759423.1686 in result.o
-  "_kextname:kotlin.ULong", referenced from:
-      _.llvm.9123982641332759423.1723 in result.o
-  "_kextname:kotlin.UShort", referenced from:
-      _.llvm.9123982641332759423.1760 in result.o
-  "_kextname:kotlin.UnsupportedOperationException", referenced from:
-      _.llvm.9123982641332759423.479 in result.o
-  "_kextname:kotlin.collections.AbstractCollection.$toString$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1401 in result.o
-  "_kextname:kotlin.collections.AbstractIterator", referenced from:
-      _.llvm.9123982641332759423.1407 in result.o
-  "_kextname:kotlin.collections.AbstractList.IteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1420 in result.o
-  "_kextname:kotlin.collections.AbstractList.ListIteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1425 in result.o
-  "_kextname:kotlin.collections.AbstractList.SubList", referenced from:
-      _.llvm.9123982641332759423.1416 in result.o
-  "_kextname:kotlin.collections.AbstractMutableCollection.$removeAll$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1227 in result.o
-  "_kextname:kotlin.collections.AbstractMutableCollection.$retainAll$lambda$1$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.1230 in result.o
-  "_kextname:kotlin.collections.AbstractMutableList", referenced from:
-      _.llvm.9123982641332759423.1258 in result.o
-  "_kextname:kotlin.collections.AbstractMutableList.$removeAll$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1252 in result.o
-  "_kextname:kotlin.collections.AbstractMutableList.$retainAll$lambda$1$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.1255 in result.o
-  "_kextname:kotlin.collections.AbstractMutableList.IteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1237 in result.o
-  "_kextname:kotlin.collections.AbstractMutableList.ListIteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1243 in result.o
-  "_kextname:kotlin.collections.AbstractMutableList.SubList", referenced from:
-      _.llvm.9123982641332759423.1249 in result.o
-  "_kextname:kotlin.collections.HashMap", referenced from:
-      _.llvm.9123982641332759423.1326 in result.o
-  "_kextname:kotlin.collections.HashMap.EntriesItr", referenced from:
-      _.llvm.9123982641332759423.1308 in result.o
-  "_kextname:kotlin.collections.HashMap.EntryRef", referenced from:
-      _.llvm.9123982641332759423.1312 in result.o
-  "_kextname:kotlin.collections.HashMap.Itr", referenced from:
-      _.llvm.9123982641332759423.1293 in result.o
-  "_kextname:kotlin.collections.HashMap.KeysItr", referenced from:
-      _.llvm.9123982641332759423.1298 in result.o
-  "_kextname:kotlin.collections.HashMap.ValuesItr", referenced from:
-      _.llvm.9123982641332759423.1303 in result.o
-  "_kextname:kotlin.collections.HashMapEntrySet", referenced from:
-      _.llvm.9123982641332759423.1335 in result.o
-  "_kextname:kotlin.collections.HashMapEntrySetBase", referenced from:
-      _.llvm.9123982641332759423.1338 in result.o
-  "_kextname:kotlin.collections.HashMapKeys", referenced from:
-      _.llvm.9123982641332759423.1329 in result.o
-  "_kextname:kotlin.collections.HashMapValues", referenced from:
-      _.llvm.9123982641332759423.1332 in result.o
-  "_kextname:kotlin.collections.HashSet", referenced from:
-      _.llvm.9123982641332759423.1341 in result.o
-  "_kextname:kotlin.collections.State", referenced from:
-      _.llvm.9123982641332759423.1411 in result.o
-  "_kextname:kotlin.enums.$enumEntries$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1546 in result.o
-  "_kextname:kotlin.enums.EnumEntriesList", referenced from:
-      _.llvm.9123982641332759423.1543 in result.o
-  "_kextname:kotlin.native.FileFailedToInitializeException", referenced from:
-      _.llvm.9123982641332759423.747 in result.o
-  "_kextname:kotlin.native.MemoryModel", referenced from:
-      _.llvm.9123982641332759423.722 in result.o
-  "_kextname:kotlin.native.concurrent.AtomicInt", referenced from:
-      _.llvm.9123982641332759423.760 in result.o
-  "_kextname:kotlin.native.concurrent.CurrentThread", referenced from:
-      _.llvm.9123982641332759423.803 in result.o
-  "_kextname:kotlin.native.concurrent.FreezableAtomicReference", referenced from:
-      _.llvm.9123982641332759423.757 in result.o
-  "_kextname:kotlin.native.concurrent.Lock", referenced from:
-      _.llvm.9123982641332759423.800 in result.o
-  "_kextname:kotlin.native.concurrent.SynchronizedLazyImpl", referenced from:
-      _.llvm.9123982641332759423.787 in result.o
-  "_kextname:kotlin.native.concurrent.WorkerBoundReference", referenced from:
-      _.llvm.9123982641332759423.819 in result.o
-  "_kextname:kotlin.native.internal.CleanerImpl", referenced from:
-      _.llvm.9123982641332759423.867 in result.o
-  "_kextname:kotlin.native.internal.KClassImpl", referenced from:
-      _.llvm.9123982641332759423.880 in result.o
-  "_kextname:kotlin.native.internal.NSDictionaryAsKMap.$toString$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1021 in result.o
-  "_kextname:kotlin.native.internal.NSDictionaryAsKMap.Entries", referenced from:
-      _.llvm.9123982641332759423.1010 in result.o
-  "_kextname:kotlin.native.internal.NSDictionaryAsKMap.Entry", referenced from:
-      _.llvm.9123982641332759423.1014 in result.o
-  "_kextname:kotlin.native.internal.NSDictionaryAsKMap.EntryIterator", referenced from:
-      _.llvm.9123982641332759423.1018 in result.o
-  "_kextname:kotlin.native.internal.NSDictionaryAsKMap.Keys", referenced from:
-      _.llvm.9123982641332759423.1004 in result.o
-  "_kextname:kotlin.native.internal.NSDictionaryAsKMap.Values", referenced from:
-      _.llvm.9123982641332759423.1007 in result.o
-  "_kextname:kotlin.native.internal.NSEnumeratorAsKIterator", referenced from:
-      _.llvm.9123982641332759423.992 in result.o
-  "_kextname:kotlin.native.internal.NSMutableArrayAsKMutableList", referenced from:
-      _.llvm.9123982641332759423.999 in result.o
-  "_kextname:kotlin.native.internal.NativePtr.Companion", referenced from:
-      _.llvm.9123982641332759423.964 in result.o
-  "_kextname:kotlin.native.internal.NumberConverter", referenced from:
-      _.llvm.9123982641332759423.977 in result.o
-  "_kextname:kotlin.native.internal.NumberConverter.Companion", referenced from:
-      _.llvm.9123982641332759423.971 in result.o
-  "_kextname:kotlin.native.internal.UnhandledExceptionHookHolder", referenced from:
-      _.llvm.9123982641332759423.1037 in result.o
-  "_kextname:kotlin.text.StringBuilder", referenced from:
-      _.llvm.9123982641332759423.1378 in result.o
-  "_kextoff:kotlin.ArrayIndexOutOfBoundsException", referenced from:
-      _.llvm.9123982641332759423.500 in result.o
-  "_kextoff:kotlin.Boolean", referenced from:
-      _.llvm.9123982641332759423.398 in result.o
-  "_kextoff:kotlin.Byte", referenced from:
-      _.llvm.9123982641332759423.601 in result.o
-  "_kextoff:kotlin.Char", referenced from:
-      _.llvm.9123982641332759423.418 in result.o
-  "_kextoff:kotlin.ClassCastException", referenced from:
-      _.llvm.9123982641332759423.507 in result.o
-  "_kextoff:kotlin.Double", referenced from:
-      _.llvm.9123982641332759423.583 in result.o
-  "_kextoff:kotlin.Enum", referenced from:
-      _.llvm.9123982641332759423.430 in result.o
-  "_kextoff:kotlin.Error", referenced from:
-      _.llvm.9123982641332759423.486 in result.o
-  "_kextoff:kotlin.Exception", referenced from:
-      _.llvm.9123982641332759423.437 in result.o
-  "_kextoff:kotlin.Float", referenced from:
-      _.llvm.9123982641332759423.622 in result.o
-  "_kextoff:kotlin.IllegalArgumentException", referenced from:
-      _.llvm.9123982641332759423.465 in result.o
-  "_kextoff:kotlin.IllegalStateException", referenced from:
-      _.llvm.9123982641332759423.472 in result.o
-  "_kextoff:kotlin.IndexOutOfBoundsException", referenced from:
-      _.llvm.9123982641332759423.458 in result.o
-  "_kextoff:kotlin.Int", referenced from:
-      _.llvm.9123982641332759423.571 in result.o
-  "_kextoff:kotlin.Long", referenced from:
-      _.llvm.9123982641332759423.592 in result.o
-  "_kextoff:kotlin.NoSuchElementException", referenced from:
-      _.llvm.9123982641332759423.444 in result.o
-  "_kextoff:kotlin.NullPointerException", referenced from:
-      _.llvm.9123982641332759423.493 in result.o
-  "_kextoff:kotlin.OutOfMemoryError", referenced from:
-      _.llvm.9123982641332759423.535 in result.o
-  "_kextoff:kotlin.RuntimeException", referenced from:
-      _.llvm.9123982641332759423.451 in result.o
-  "_kextoff:kotlin.Short", referenced from:
-      _.llvm.9123982641332759423.610 in result.o
-  "_kextoff:kotlin.Throwable", referenced from:
-      _.llvm.9123982641332759423.642 in result.o
-  "_kextoff:kotlin.Throwable.$<init>$lambda$0$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.635 in result.o
-  "_kextoff:kotlin.Throwable.ExceptionTraceBuilder", referenced from:
-      _.llvm.9123982641332759423.632 in result.o
-  "_kextoff:kotlin.UByte", referenced from:
-      _.llvm.9123982641332759423.1670 in result.o
-  "_kextoff:kotlin.UInt", referenced from:
-      _.llvm.9123982641332759423.1686 in result.o
-  "_kextoff:kotlin.ULong", referenced from:
-      _.llvm.9123982641332759423.1723 in result.o
-  "_kextoff:kotlin.UShort", referenced from:
-      _.llvm.9123982641332759423.1760 in result.o
-  "_kextoff:kotlin.UnsupportedOperationException", referenced from:
-      _.llvm.9123982641332759423.479 in result.o
-  "_kextoff:kotlin.collections.AbstractCollection.$toString$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1401 in result.o
-  "_kextoff:kotlin.collections.AbstractIterator", referenced from:
-      _.llvm.9123982641332759423.1407 in result.o
-  "_kextoff:kotlin.collections.AbstractList.IteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1420 in result.o
-  "_kextoff:kotlin.collections.AbstractList.ListIteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1425 in result.o
-  "_kextoff:kotlin.collections.AbstractList.SubList", referenced from:
-      _.llvm.9123982641332759423.1416 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableCollection.$removeAll$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1227 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableCollection.$retainAll$lambda$1$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.1230 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableList", referenced from:
-      _.llvm.9123982641332759423.1258 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableList.$removeAll$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1252 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableList.$retainAll$lambda$1$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.1255 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableList.IteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1237 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableList.ListIteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1243 in result.o
-  "_kextoff:kotlin.collections.AbstractMutableList.SubList", referenced from:
-      _.llvm.9123982641332759423.1249 in result.o
-  "_kextoff:kotlin.collections.HashMap", referenced from:
-      _.llvm.9123982641332759423.1326 in result.o
-  "_kextoff:kotlin.collections.HashMap.EntriesItr", referenced from:
-      _.llvm.9123982641332759423.1308 in result.o
-  "_kextoff:kotlin.collections.HashMap.EntryRef", referenced from:
-      _.llvm.9123982641332759423.1312 in result.o
-  "_kextoff:kotlin.collections.HashMap.Itr", referenced from:
-      _.llvm.9123982641332759423.1293 in result.o
-  "_kextoff:kotlin.collections.HashMap.KeysItr", referenced from:
-      _.llvm.9123982641332759423.1298 in result.o
-  "_kextoff:kotlin.collections.HashMap.ValuesItr", referenced from:
-      _.llvm.9123982641332759423.1303 in result.o
-  "_kextoff:kotlin.collections.HashMapEntrySet", referenced from:
-      _.llvm.9123982641332759423.1335 in result.o
-  "_kextoff:kotlin.collections.HashMapEntrySetBase", referenced from:
-      _.llvm.9123982641332759423.1338 in result.o
-  "_kextoff:kotlin.collections.HashMapKeys", referenced from:
-      _.llvm.9123982641332759423.1329 in result.o
-  "_kextoff:kotlin.collections.HashMapValues", referenced from:
-      _.llvm.9123982641332759423.1332 in result.o
-  "_kextoff:kotlin.collections.HashSet", referenced from:
-      _.llvm.9123982641332759423.1341 in result.o
-  "_kextoff:kotlin.collections.State", referenced from:
-      _.llvm.9123982641332759423.1411 in result.o
-  "_kextoff:kotlin.enums.$enumEntries$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1546 in result.o
-  "_kextoff:kotlin.enums.EnumEntriesList", referenced from:
-      _.llvm.9123982641332759423.1543 in result.o
-  "_kextoff:kotlin.native.FileFailedToInitializeException", referenced from:
-      _.llvm.9123982641332759423.747 in result.o
-  "_kextoff:kotlin.native.MemoryModel", referenced from:
-      _.llvm.9123982641332759423.722 in result.o
-  "_kextoff:kotlin.native.concurrent.AtomicInt", referenced from:
-      _.llvm.9123982641332759423.760 in result.o
-  "_kextoff:kotlin.native.concurrent.CurrentThread", referenced from:
-      _.llvm.9123982641332759423.803 in result.o
-  "_kextoff:kotlin.native.concurrent.FreezableAtomicReference", referenced from:
-      _.llvm.9123982641332759423.757 in result.o
-  "_kextoff:kotlin.native.concurrent.Lock", referenced from:
-      _.llvm.9123982641332759423.800 in result.o
-  "_kextoff:kotlin.native.concurrent.SynchronizedLazyImpl", referenced from:
-      _.llvm.9123982641332759423.787 in result.o
-  "_kextoff:kotlin.native.concurrent.WorkerBoundReference", referenced from:
-      _.llvm.9123982641332759423.819 in result.o
-  "_kextoff:kotlin.native.internal.CleanerImpl", referenced from:
-      _.llvm.9123982641332759423.867 in result.o
-  "_kextoff:kotlin.native.internal.KClassImpl", referenced from:
-      _.llvm.9123982641332759423.880 in result.o
-  "_kextoff:kotlin.native.internal.NSDictionaryAsKMap.$toString$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1021 in result.o
-  "_kextoff:kotlin.native.internal.NSDictionaryAsKMap.Entries", referenced from:
-      _.llvm.9123982641332759423.1010 in result.o
-  "_kextoff:kotlin.native.internal.NSDictionaryAsKMap.Entry", referenced from:
-      _.llvm.9123982641332759423.1014 in result.o
-  "_kextoff:kotlin.native.internal.NSDictionaryAsKMap.EntryIterator", referenced from:
-      _.llvm.9123982641332759423.1018 in result.o
-  "_kextoff:kotlin.native.internal.NSDictionaryAsKMap.Keys", referenced from:
-      _.llvm.9123982641332759423.1004 in result.o
-  "_kextoff:kotlin.native.internal.NSDictionaryAsKMap.Values", referenced from:
-      _.llvm.9123982641332759423.1007 in result.o
-  "_kextoff:kotlin.native.internal.NSEnumeratorAsKIterator", referenced from:
-      _.llvm.9123982641332759423.992 in result.o
-  "_kextoff:kotlin.native.internal.NSMutableArrayAsKMutableList", referenced from:
-      _.llvm.9123982641332759423.999 in result.o
-  "_kextoff:kotlin.native.internal.NativePtr.Companion", referenced from:
-      _.llvm.9123982641332759423.964 in result.o
-  "_kextoff:kotlin.native.internal.NumberConverter", referenced from:
-      _.llvm.9123982641332759423.977 in result.o
-  "_kextoff:kotlin.native.internal.NumberConverter.Companion", referenced from:
-      _.llvm.9123982641332759423.971 in result.o
-  "_kextoff:kotlin.native.internal.UnhandledExceptionHookHolder", referenced from:
-      _.llvm.9123982641332759423.1037 in result.o
-  "_kextoff:kotlin.text.StringBuilder", referenced from:
-      _.llvm.9123982641332759423.1378 in result.o
-  "_kexttype:kotlin.ArrayIndexOutOfBoundsException", referenced from:
-      _.llvm.9123982641332759423.500 in result.o
-  "_kexttype:kotlin.Boolean", referenced from:
-      _.llvm.9123982641332759423.398 in result.o
-  "_kexttype:kotlin.Byte", referenced from:
-      _.llvm.9123982641332759423.601 in result.o
-  "_kexttype:kotlin.Char", referenced from:
-      _.llvm.9123982641332759423.418 in result.o
-  "_kexttype:kotlin.ClassCastException", referenced from:
-      _.llvm.9123982641332759423.507 in result.o
-  "_kexttype:kotlin.Double", referenced from:
-      _.llvm.9123982641332759423.583 in result.o
-  "_kexttype:kotlin.Enum", referenced from:
-      _.llvm.9123982641332759423.430 in result.o
-  "_kexttype:kotlin.Error", referenced from:
-      _.llvm.9123982641332759423.486 in result.o
-  "_kexttype:kotlin.Exception", referenced from:
-      _.llvm.9123982641332759423.437 in result.o
-  "_kexttype:kotlin.Float", referenced from:
-      _.llvm.9123982641332759423.622 in result.o
-  "_kexttype:kotlin.IllegalArgumentException", referenced from:
-      _.llvm.9123982641332759423.465 in result.o
-  "_kexttype:kotlin.IllegalStateException", referenced from:
-      _.llvm.9123982641332759423.472 in result.o
-  "_kexttype:kotlin.IndexOutOfBoundsException", referenced from:
-      _.llvm.9123982641332759423.458 in result.o
-  "_kexttype:kotlin.Int", referenced from:
-      _.llvm.9123982641332759423.571 in result.o
-  "_kexttype:kotlin.Long", referenced from:
-      _.llvm.9123982641332759423.592 in result.o
-  "_kexttype:kotlin.NoSuchElementException", referenced from:
-      _.llvm.9123982641332759423.444 in result.o
-  "_kexttype:kotlin.NullPointerException", referenced from:
-      _.llvm.9123982641332759423.493 in result.o
-  "_kexttype:kotlin.OutOfMemoryError", referenced from:
-      _.llvm.9123982641332759423.535 in result.o
-  "_kexttype:kotlin.RuntimeException", referenced from:
-      _.llvm.9123982641332759423.451 in result.o
-  "_kexttype:kotlin.Short", referenced from:
-      _.llvm.9123982641332759423.610 in result.o
-  "_kexttype:kotlin.Throwable", referenced from:
-      _.llvm.9123982641332759423.642 in result.o
-  "_kexttype:kotlin.Throwable.$<init>$lambda$0$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.635 in result.o
-  "_kexttype:kotlin.Throwable.ExceptionTraceBuilder", referenced from:
-      _.llvm.9123982641332759423.632 in result.o
-  "_kexttype:kotlin.UByte", referenced from:
-      _.llvm.9123982641332759423.1670 in result.o
-  "_kexttype:kotlin.UInt", referenced from:
-      _.llvm.9123982641332759423.1686 in result.o
-  "_kexttype:kotlin.ULong", referenced from:
-      _.llvm.9123982641332759423.1723 in result.o
-  "_kexttype:kotlin.UShort", referenced from:
-      _.llvm.9123982641332759423.1760 in result.o
-  "_kexttype:kotlin.UnsupportedOperationException", referenced from:
-      _.llvm.9123982641332759423.479 in result.o
-  "_kexttype:kotlin.collections.AbstractCollection.$toString$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1401 in result.o
-  "_kexttype:kotlin.collections.AbstractIterator", referenced from:
-      _.llvm.9123982641332759423.1407 in result.o
-  "_kexttype:kotlin.collections.AbstractList.IteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1420 in result.o
-  "_kexttype:kotlin.collections.AbstractList.ListIteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1425 in result.o
-  "_kexttype:kotlin.collections.AbstractList.SubList", referenced from:
-      _.llvm.9123982641332759423.1416 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableCollection.$removeAll$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1227 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableCollection.$retainAll$lambda$1$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.1230 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableList", referenced from:
-      _.llvm.9123982641332759423.1258 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableList.$removeAll$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1252 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableList.$retainAll$lambda$1$FUNCTION_REFERENCE$1", referenced from:
-      _.llvm.9123982641332759423.1255 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableList.IteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1237 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableList.ListIteratorImpl", referenced from:
-      _.llvm.9123982641332759423.1243 in result.o
-  "_kexttype:kotlin.collections.AbstractMutableList.SubList", referenced from:
-      _.llvm.9123982641332759423.1249 in result.o
-  "_kexttype:kotlin.collections.HashMap", referenced from:
-      _.llvm.9123982641332759423.1326 in result.o
-  "_kexttype:kotlin.collections.HashMap.EntriesItr", referenced from:
-      _.llvm.9123982641332759423.1308 in result.o
-  "_kexttype:kotlin.collections.HashMap.EntryRef", referenced from:
-      _.llvm.9123982641332759423.1312 in result.o
-  "_kexttype:kotlin.collections.HashMap.Itr", referenced from:
-      _.llvm.9123982641332759423.1293 in result.o
-  "_kexttype:kotlin.collections.HashMap.KeysItr", referenced from:
-      _.llvm.9123982641332759423.1298 in result.o
-  "_kexttype:kotlin.collections.HashMap.ValuesItr", referenced from:
-      _.llvm.9123982641332759423.1303 in result.o
-  "_kexttype:kotlin.collections.HashMapEntrySet", referenced from:
-      _.llvm.9123982641332759423.1335 in result.o
-  "_kexttype:kotlin.collections.HashMapEntrySetBase", referenced from:
-      _.llvm.9123982641332759423.1338 in result.o
-  "_kexttype:kotlin.collections.HashMapKeys", referenced from:
-      _.llvm.9123982641332759423.1329 in result.o
-  "_kexttype:kotlin.collections.HashMapValues", referenced from:
-      _.llvm.9123982641332759423.1332 in result.o
-  "_kexttype:kotlin.collections.HashSet", referenced from:
-      _.llvm.9123982641332759423.1341 in result.o
-  "_kexttype:kotlin.collections.State", referenced from:
-      _.llvm.9123982641332759423.1411 in result.o
-  "_kexttype:kotlin.enums.$enumEntries$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1546 in result.o
-  "_kexttype:kotlin.enums.EnumEntriesList", referenced from:
-      _.llvm.9123982641332759423.1543 in result.o
-  "_kexttype:kotlin.native.FileFailedToInitializeException", referenced from:
-      _.llvm.9123982641332759423.747 in result.o
-  "_kexttype:kotlin.native.MemoryModel", referenced from:
-      _.llvm.9123982641332759423.722 in result.o
-  "_kexttype:kotlin.native.concurrent.AtomicInt", referenced from:
-      _.llvm.9123982641332759423.760 in result.o
-  "_kexttype:kotlin.native.concurrent.CurrentThread", referenced from:
-      _.llvm.9123982641332759423.803 in result.o
-  "_kexttype:kotlin.native.concurrent.FreezableAtomicReference", referenced from:
-      _.llvm.9123982641332759423.757 in result.o
-  "_kexttype:kotlin.native.concurrent.Lock", referenced from:
-      _.llvm.9123982641332759423.800 in result.o
-  "_kexttype:kotlin.native.concurrent.SynchronizedLazyImpl", referenced from:
-      _.llvm.9123982641332759423.787 in result.o
-  "_kexttype:kotlin.native.concurrent.WorkerBoundReference", referenced from:
-      _.llvm.9123982641332759423.819 in result.o
-  "_kexttype:kotlin.native.internal.CleanerImpl", referenced from:
-      _.llvm.9123982641332759423.867 in result.o
-  "_kexttype:kotlin.native.internal.KClassImpl", referenced from:
-      _.llvm.9123982641332759423.880 in result.o
-  "_kexttype:kotlin.native.internal.NSDictionaryAsKMap.$toString$lambda$0$FUNCTION_REFERENCE$0", referenced from:
-      _.llvm.9123982641332759423.1021 in result.o
-  "_kexttype:kotlin.native.internal.NSDictionaryAsKMap.Entries", referenced from:
-      _.llvm.9123982641332759423.1010 in result.o
-  "_kexttype:kotlin.native.internal.NSDictionaryAsKMap.Entry", referenced from:
-      _.llvm.9123982641332759423.1014 in result.o
-  "_kexttype:kotlin.native.internal.NSDictionaryAsKMap.EntryIterator", referenced from:
-      _.llvm.9123982641332759423.1018 in result.o
-  "_kexttype:kotlin.native.internal.NSDictionaryAsKMap.Keys", referenced from:
-      _.llvm.9123982641332759423.1004 in result.o
-  "_kexttype:kotlin.native.internal.NSDictionaryAsKMap.Values", referenced from:
-      _.llvm.9123982641332759423.1007 in result.o
-  "_kexttype:kotlin.native.internal.NSEnumeratorAsKIterator", referenced from:
-      _.llvm.9123982641332759423.992 in result.o
-  "_kexttype:kotlin.native.internal.NSMutableArrayAsKMutableList", referenced from:
-      _.llvm.9123982641332759423.999 in result.o
-  "_kexttype:kotlin.native.internal.NativePtr.Companion", referenced from:
-      _.llvm.9123982641332759423.964 in result.o
-  "_kexttype:kotlin.native.internal.NumberConverter", referenced from:
-      _.llvm.9123982641332759423.977 in result.o
-  "_kexttype:kotlin.native.internal.NumberConverter.Companion", referenced from:
-      _.llvm.9123982641332759423.971 in result.o
-  "_kexttype:kotlin.native.internal.UnhandledExceptionHookHolder", referenced from:
-      _.llvm.9123982641332759423.1037 in result.o
-  "_kexttype:kotlin.text.StringBuilder", referenced from:
-      _.llvm.9123982641332759423.1378 in result.o
-  "_kotlin2objc_Kotlin_Any_equals", referenced from:
-      _.llvm.9123982641332759423.2232 in result.o
-  "_kotlin2objc_kfun:kotlin.Any#hashCode(){}kotlin.Int", referenced from:
-      _.llvm.9123982641332759423.2232 in result.o
-  "_kotlin2objc_kfun:kotlin.Any#toString(){}kotlin.String", referenced from:
-      _.llvm.9123982641332759423.2232 in result.o
-  "_objc2kotlin_Kotlin_Any_equals", referenced from:
-      _.llvm.9123982641332759423.2230 in result.o
-  "_objc2kotlin_kfun:kotlin.Any#hashCode(){}kotlin.Int", referenced from:
-      _.llvm.9123982641332759423.2230 in result.o
-  "_objc2kotlin_kfun:kotlin.Any#toString(){}kotlin.String", referenced from:
-      _.llvm.9123982641332759423.2230 in result.o
-  "_objc2kotlin_virtual_Kotlin_Any_equals", referenced from:
-      _.llvm.9123982641332759423.2231 in result.o
-  "_objc2kotlin_virtual_kfun:kotlin.Any#hashCode(){}kotlin.Int", referenced from:
-      _.llvm.9123982641332759423.2231 in result.o
-  "_objc2kotlin_virtual_kfun:kotlin.Any#toString(){}kotlin.String", referenced from:
-      _.llvm.9123982641332759423.2231 in result.o
-ld: symbol(s) not found for architecture arm64
-make: *** [in] Error 1
+clang++: /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/Support/Casting.h:579: decltype(auto) llvm::cast(From*) [with To = Function; From = GlobalObject]: Assertion `isa<To>(Val) && "cast<Ty>() argument of incompatible type!"' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang++ -fthinlto-index=indices/bitcodeDump.o.thinlto.bc -x ir summaries/bitcodeDump.o -o indices/bitcodeDump.o -O2 -c
+ #0 0x000055c6795c2794 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:602:22
+ #1 0x000055c6795c2b8e PrintStackTraceSignalHandler(void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:676:1
+ #2 0x000055c6795c0556 llvm::sys::RunSignalHandlers() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Signals.cpp:104:20
+ #3 0x000055c6795c20d1 llvm::sys::CleanupOnSignal(unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:367:31
+ #4 0x000055c67950113c (anonymous namespace)::CrashRecoveryContextImpl::HandleCrash(int, unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:73:5
+ #5 0x000055c6795015cb CrashRecoverySignalHandler(int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:391:1
+ #6 0x00007f63e277bf90 (/lib/x86_64-linux-gnu/libc.so.6+0x3bf90)
+ #7 0x00007f63e27caccc __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #8 0x00007f63e277bef2 raise ./signal/../sysdeps/posix/raise.c:27:6
+ #9 0x00007f63e2766472 abort ./stdlib/abort.c:81:7
+#10 0x00007f63e2766395 _nl_load_domain ./intl/loadmsgcat.c:1177:9
+#11 0x00007f63e2774df2 (/lib/x86_64-linux-gnu/libc.so.6+0x34df2)
+#12 0x000055c67b0e9f74 decltype(auto) llvm::cast<llvm::Function, llvm::GlobalObject>(llvm::GlobalObject*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/Support/Casting.h:580:38
+#13 0x000055c67b0e5857 replaceAliasWithAliasee(llvm::Module*, llvm::GlobalAlias*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/IPO/FunctionImport.cpp:1231:32
+#14 0x000055c67b0e6b50 llvm::FunctionImporter::importFunctions(llvm::Module&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/IPO/FunctionImport.cpp:1346:43
+#15 0x000055c67aebfc89 llvm::lto::thinBackend(llvm::lto::Config const&, unsigned int, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, llvm::Module&, llvm::ModuleSummaryIndex const&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&, llvm::DenseMap<unsigned long, llvm::GlobalValueSummary*, llvm::DenseMapInfo<unsigned long, void>, llvm::detail::DenseMapPair<unsigned long, llvm::GlobalValueSummary*>> const&, llvm::MapVector<llvm::StringRef, llvm::BitcodeModule, llvm::DenseMap<llvm::StringRef, unsigned int, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, unsigned int>>, std::vector<std::pair<llvm::StringRef, llvm::BitcodeModule>, std::allocator<std::pair<llvm::StringRef, llvm::BitcodeModule>>>>*, std::vector<unsigned char, std::allocator<unsigned char>> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/LTO/LTOBackend.cpp:651:71
+#16 0x000055c6798f7766 runThinLTOBackend(clang::DiagnosticsEngine&, llvm::ModuleSummaryIndex*, llvm::Module*, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, clang::BackendAction) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1200:62
+#17 0x000055c6798f7b90 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1239:26
+#18 0x000055c67ae4e33e clang::CodeGenAction::ExecuteAction() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/CodeGenAction.cpp:1242:20
+#19 0x000055c67a455ad3 clang::FrontendAction::Execute() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/FrontendAction.cpp:1062:38
+#20 0x000055c67a38ba94 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/CompilerInstance.cpp:1048:42
+#21 0x000055c67a5e4a28 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/FrontendTool/ExecuteCompilerInvocation.cpp:264:38
+#22 0x000055c675f14969 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/cc1_main.cpp:251:40
+#23 0x000055c675f01cab ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:366:20
+#24 0x000055c675f01e95 clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:507:5
+#25 0x000055c675f0347f int llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::callback_fn<clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)>(long, llvm::SmallVectorImpl<char const*>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:47:3
+#26 0x000055c67a2229eb llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:69:3
+#27 0x000055c67a221734 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:32
+#28 0x000055c67a221c98 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()>(long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:46:40
+#29 0x000055c6783bac0e llvm::function_ref<void ()>::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:68:62
+#30 0x000055c679501793 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:427:10
+#31 0x000055c67a221920 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:7
+#32 0x000055c67a1c4a83 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:199:22
+#33 0x000055c67a1c4daf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:253:62
+#34 0x000055c67a1d6e20 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Driver.cpp:1867:28
+#35 0x000055c675f0302b clang_main(int, char**, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:542:39
+#36 0x000055c675f37412 main /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/tools/clang/tools/driver/clang-driver.cpp:15:58
+#37 0x00007f63e276718a __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#38 0x00007f63e2767245 call_init ./csu/../csu/libc-start.c:128:20
+#39 0x00007f63e2767245 __libc_start_main ./csu/../csu/libc-start.c:368:5
+#40 0x000055c675f00261 _start (/usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang+++0x16d5261)
+clang++: error: clang frontend command failed with exit code 134 (use -v to see invocation)
+clang version 17.0.0 (https://github.com/llvm/llvm-project.git c5ce5b83f871165f6d56a88bdcb448609f6cd6f7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin
+clang++: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
+clang++: /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:67: bool llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(const llvm::GlobalValue*, llvm::ValueInfo): Assertion `(!GlobalsToImport->count(const_cast<GlobalValue *>(SGV)) || !isNonRenamableLocal(*SGV)) && "Attempting to promote non-renamable local"' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang++ -fthinlto-index=indices/common_gc600123930.o.thinlto.bc -x ir summaries/common_gc600123930.o -o indices/common_gc600123930.o -O2 -c
+ #0 0x00005615dacc8794 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:602:22
+ #1 0x00005615dacc8b8e PrintStackTraceSignalHandler(void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:676:1
+ #2 0x00005615dacc6556 llvm::sys::RunSignalHandlers() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Signals.cpp:104:20
+ #3 0x00005615dacc80d1 llvm::sys::CleanupOnSignal(unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:367:31
+ #4 0x00005615dac0713c (anonymous namespace)::CrashRecoveryContextImpl::HandleCrash(int, unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:73:5
+ #5 0x00005615dac075cb CrashRecoverySignalHandler(int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:391:1
+ #6 0x00007f0fcbc5af90 (/lib/x86_64-linux-gnu/libc.so.6+0x3bf90)
+ #7 0x00007f0fcbca9ccc __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #8 0x00007f0fcbc5aef2 raise ./signal/../sysdeps/posix/raise.c:27:6
+ #9 0x00007f0fcbc45472 abort ./stdlib/abort.c:81:7
+#10 0x00007f0fcbc45395 _nl_load_domain ./intl/loadmsgcat.c:1177:9
+#11 0x00007f0fcbc53df2 (/lib/x86_64-linux-gnu/libc.so.6+0x34df2)
+#12 0x00005615e039d2a4 llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(llvm::GlobalValue const*, llvm::ValueInfo) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:75:12
+#13 0x00005615e039dd5d llvm::FunctionImportGlobalProcessing::processGlobalForThinLTO(llvm::GlobalValue&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:291:28
+#14 0x00005615e039e1ed llvm::FunctionImportGlobalProcessing::processGlobalsForThinLTO() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:338:39
+#15 0x00005615e039e4ae llvm::FunctionImportGlobalProcessing::run() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:358:10
+#16 0x00005615e039e51b llvm::renameModuleForThinLTO(llvm::Module&, llvm::ModuleSummaryIndex const&, bool, llvm::SetVector<llvm::GlobalValue*, std::vector<llvm::GlobalValue*, std::allocator<llvm::GlobalValue*>>, llvm::DenseSet<llvm::GlobalValue*, llvm::DenseMapInfo<llvm::GlobalValue*, void>>>*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:366:31
+#17 0x00005615dc7ece4c llvm::FunctionImporter::importFunctions(llvm::Module&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/IPO/FunctionImport.cpp:1373:5
+#18 0x00005615dc5c5c89 llvm::lto::thinBackend(llvm::lto::Config const&, unsigned int, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, llvm::Module&, llvm::ModuleSummaryIndex const&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&, llvm::DenseMap<unsigned long, llvm::GlobalValueSummary*, llvm::DenseMapInfo<unsigned long, void>, llvm::detail::DenseMapPair<unsigned long, llvm::GlobalValueSummary*>> const&, llvm::MapVector<llvm::StringRef, llvm::BitcodeModule, llvm::DenseMap<llvm::StringRef, unsigned int, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, unsigned int>>, std::vector<std::pair<llvm::StringRef, llvm::BitcodeModule>, std::allocator<std::pair<llvm::StringRef, llvm::BitcodeModule>>>>*, std::vector<unsigned char, std::allocator<unsigned char>> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/LTO/LTOBackend.cpp:651:71
+#19 0x00005615daffd766 runThinLTOBackend(clang::DiagnosticsEngine&, llvm::ModuleSummaryIndex*, llvm::Module*, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, clang::BackendAction) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1200:62
+#20 0x00005615daffdb90 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1239:26
+#21 0x00005615dc55433e clang::CodeGenAction::ExecuteAction() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/CodeGenAction.cpp:1242:20
+#22 0x00005615dbb5bad3 clang::FrontendAction::Execute() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/FrontendAction.cpp:1062:38
+#23 0x00005615dba91a94 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/CompilerInstance.cpp:1048:42
+#24 0x00005615dbceaa28 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/FrontendTool/ExecuteCompilerInvocation.cpp:264:38
+#25 0x00005615d761a969 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/cc1_main.cpp:251:40
+#26 0x00005615d7607cab ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:366:20
+#27 0x00005615d7607e95 clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:507:5
+#28 0x00005615d760947f int llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::callback_fn<clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)>(long, llvm::SmallVectorImpl<char const*>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:47:3
+#29 0x00005615db9289eb llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:69:3
+#30 0x00005615db927734 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:32
+#31 0x00005615db927c98 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()>(long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:46:40
+#32 0x00005615d9ac0c0e llvm::function_ref<void ()>::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:68:62
+#33 0x00005615dac07793 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:427:10
+#34 0x00005615db927920 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:7
+#35 0x00005615db8caa83 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:199:22
+#36 0x00005615db8cadaf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:253:62
+#37 0x00005615db8dce20 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Driver.cpp:1867:28
+#38 0x00005615d760902b clang_main(int, char**, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:542:39
+#39 0x00005615d763d412 main /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/tools/clang/tools/driver/clang-driver.cpp:15:58
+#40 0x00007f0fcbc4618a __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#41 0x00007f0fcbc46245 call_init ./csu/../csu/libc-start.c:128:20
+#42 0x00007f0fcbc46245 __libc_start_main ./csu/../csu/libc-start.c:368:5
+#43 0x00005615d7606261 _start (/usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang+++0x16d5261)
+clang++: error: clang frontend command failed with exit code 134 (use -v to see invocation)
+clang version 17.0.0 (https://github.com/llvm/llvm-project.git c5ce5b83f871165f6d56a88bdcb448609f6cd6f7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin
+clang++: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
+clang++: /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:67: bool llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(const llvm::GlobalValue*, llvm::ValueInfo): Assertion `(!GlobalsToImport->count(const_cast<GlobalValue *>(SGV)) || !isNonRenamableLocal(*SGV)) && "Attempting to promote non-renamable local"' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang++ -fthinlto-index=indices/concurrent_ms_gc-527218591.o.thinlto.bc -x ir summaries/concurrent_ms_gc-527218591.o -o indices/concurrent_ms_gc-527218591.o -O2 -c
+ #0 0x000056017c58c794 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:602:22
+ #1 0x000056017c58cb8e PrintStackTraceSignalHandler(void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:676:1
+ #2 0x000056017c58a556 llvm::sys::RunSignalHandlers() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Signals.cpp:104:20
+ #3 0x000056017c58c0d1 llvm::sys::CleanupOnSignal(unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:367:31
+ #4 0x000056017c4cb13c (anonymous namespace)::CrashRecoveryContextImpl::HandleCrash(int, unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:73:5
+ #5 0x000056017c4cb5cb CrashRecoverySignalHandler(int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:391:1
+ #6 0x00007fc43645af90 (/lib/x86_64-linux-gnu/libc.so.6+0x3bf90)
+ #7 0x00007fc4364a9ccc __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #8 0x00007fc43645aef2 raise ./signal/../sysdeps/posix/raise.c:27:6
+ #9 0x00007fc436445472 abort ./stdlib/abort.c:81:7
+#10 0x00007fc436445395 _nl_load_domain ./intl/loadmsgcat.c:1177:9
+#11 0x00007fc436453df2 (/lib/x86_64-linux-gnu/libc.so.6+0x34df2)
+#12 0x0000560181c612a4 llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(llvm::GlobalValue const*, llvm::ValueInfo) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:75:12
+#13 0x0000560181c61d5d llvm::FunctionImportGlobalProcessing::processGlobalForThinLTO(llvm::GlobalValue&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:291:28
+#14 0x0000560181c621ed llvm::FunctionImportGlobalProcessing::processGlobalsForThinLTO() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:338:39
+#15 0x0000560181c624ae llvm::FunctionImportGlobalProcessing::run() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:358:10
+#16 0x0000560181c6251b llvm::renameModuleForThinLTO(llvm::Module&, llvm::ModuleSummaryIndex const&, bool, llvm::SetVector<llvm::GlobalValue*, std::vector<llvm::GlobalValue*, std::allocator<llvm::GlobalValue*>>, llvm::DenseSet<llvm::GlobalValue*, llvm::DenseMapInfo<llvm::GlobalValue*, void>>>*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:366:31
+#17 0x000056017e0b0e4c llvm::FunctionImporter::importFunctions(llvm::Module&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/IPO/FunctionImport.cpp:1373:5
+#18 0x000056017de89c89 llvm::lto::thinBackend(llvm::lto::Config const&, unsigned int, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, llvm::Module&, llvm::ModuleSummaryIndex const&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&, llvm::DenseMap<unsigned long, llvm::GlobalValueSummary*, llvm::DenseMapInfo<unsigned long, void>, llvm::detail::DenseMapPair<unsigned long, llvm::GlobalValueSummary*>> const&, llvm::MapVector<llvm::StringRef, llvm::BitcodeModule, llvm::DenseMap<llvm::StringRef, unsigned int, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, unsigned int>>, std::vector<std::pair<llvm::StringRef, llvm::BitcodeModule>, std::allocator<std::pair<llvm::StringRef, llvm::BitcodeModule>>>>*, std::vector<unsigned char, std::allocator<unsigned char>> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/LTO/LTOBackend.cpp:651:71
+#19 0x000056017c8c1766 runThinLTOBackend(clang::DiagnosticsEngine&, llvm::ModuleSummaryIndex*, llvm::Module*, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, clang::BackendAction) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1200:62
+#20 0x000056017c8c1b90 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1239:26
+#21 0x000056017de1833e clang::CodeGenAction::ExecuteAction() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/CodeGenAction.cpp:1242:20
+#22 0x000056017d41fad3 clang::FrontendAction::Execute() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/FrontendAction.cpp:1062:38
+#23 0x000056017d355a94 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/CompilerInstance.cpp:1048:42
+#24 0x000056017d5aea28 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/FrontendTool/ExecuteCompilerInvocation.cpp:264:38
+#25 0x0000560178ede969 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/cc1_main.cpp:251:40
+#26 0x0000560178ecbcab ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:366:20
+#27 0x0000560178ecbe95 clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:507:5
+#28 0x0000560178ecd47f int llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::callback_fn<clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)>(long, llvm::SmallVectorImpl<char const*>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:47:3
+#29 0x000056017d1ec9eb llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:69:3
+#30 0x000056017d1eb734 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:32
+#31 0x000056017d1ebc98 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()>(long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:46:40
+#32 0x000056017b384c0e llvm::function_ref<void ()>::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:68:62
+#33 0x000056017c4cb793 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:427:10
+#34 0x000056017d1eb920 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:7
+#35 0x000056017d18ea83 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:199:22
+#36 0x000056017d18edaf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:253:62
+#37 0x000056017d1a0e20 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Driver.cpp:1867:28
+#38 0x0000560178ecd02b clang_main(int, char**, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:542:39
+#39 0x0000560178f01412 main /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/tools/clang/tools/driver/clang-driver.cpp:15:58
+#40 0x00007fc43644618a __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#41 0x00007fc436446245 call_init ./csu/../csu/libc-start.c:128:20
+#42 0x00007fc436446245 __libc_start_main ./csu/../csu/libc-start.c:368:5
+#43 0x0000560178eca261 _start (/usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang+++0x16d5261)
+clang++: error: clang frontend command failed with exit code 134 (use -v to see invocation)
+clang version 17.0.0 (https://github.com/llvm/llvm-project.git c5ce5b83f871165f6d56a88bdcb448609f6cd6f7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin
+clang++: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
+clang++: /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:67: bool llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(const llvm::GlobalValue*, llvm::ValueInfo): Assertion `(!GlobalsToImport->count(const_cast<GlobalValue *>(SGV)) || !isNonRenamableLocal(*SGV)) && "Attempting to promote non-renamable local"' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang++ -fthinlto-index=indices/experimental_memory_manager-1531902544.o.thinlto.bc -x ir summaries/experimental_memory_manager-1531902544.o -o indices/experimental_memory_manager-1531902544.o -O2 -c
+ #0 0x000055a103fe7794 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:602:22
+ #1 0x000055a103fe7b8e PrintStackTraceSignalHandler(void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:676:1
+ #2 0x000055a103fe5556 llvm::sys::RunSignalHandlers() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Signals.cpp:104:20
+ #3 0x000055a103fe70d1 llvm::sys::CleanupOnSignal(unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:367:31
+ #4 0x000055a103f2613c (anonymous namespace)::CrashRecoveryContextImpl::HandleCrash(int, unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:73:5
+ #5 0x000055a103f265cb CrashRecoverySignalHandler(int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:391:1
+ #6 0x00007f132bd7bf90 (/lib/x86_64-linux-gnu/libc.so.6+0x3bf90)
+ #7 0x00007f132bdcaccc __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #8 0x00007f132bd7bef2 raise ./signal/../sysdeps/posix/raise.c:27:6
+ #9 0x00007f132bd66472 abort ./stdlib/abort.c:81:7
+#10 0x00007f132bd66395 _nl_load_domain ./intl/loadmsgcat.c:1177:9
+#11 0x00007f132bd74df2 (/lib/x86_64-linux-gnu/libc.so.6+0x34df2)
+#12 0x000055a1096bc2a4 llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(llvm::GlobalValue const*, llvm::ValueInfo) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:75:12
+#13 0x000055a1096bcd5d llvm::FunctionImportGlobalProcessing::processGlobalForThinLTO(llvm::GlobalValue&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:291:28
+#14 0x000055a1096bd1ed llvm::FunctionImportGlobalProcessing::processGlobalsForThinLTO() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:338:39
+#15 0x000055a1096bd4ae llvm::FunctionImportGlobalProcessing::run() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:358:10
+#16 0x000055a1096bd51b llvm::renameModuleForThinLTO(llvm::Module&, llvm::ModuleSummaryIndex const&, bool, llvm::SetVector<llvm::GlobalValue*, std::vector<llvm::GlobalValue*, std::allocator<llvm::GlobalValue*>>, llvm::DenseSet<llvm::GlobalValue*, llvm::DenseMapInfo<llvm::GlobalValue*, void>>>*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:366:31
+#17 0x000055a105b0be4c llvm::FunctionImporter::importFunctions(llvm::Module&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/IPO/FunctionImport.cpp:1373:5
+#18 0x000055a1058e4c89 llvm::lto::thinBackend(llvm::lto::Config const&, unsigned int, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, llvm::Module&, llvm::ModuleSummaryIndex const&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&, llvm::DenseMap<unsigned long, llvm::GlobalValueSummary*, llvm::DenseMapInfo<unsigned long, void>, llvm::detail::DenseMapPair<unsigned long, llvm::GlobalValueSummary*>> const&, llvm::MapVector<llvm::StringRef, llvm::BitcodeModule, llvm::DenseMap<llvm::StringRef, unsigned int, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, unsigned int>>, std::vector<std::pair<llvm::StringRef, llvm::BitcodeModule>, std::allocator<std::pair<llvm::StringRef, llvm::BitcodeModule>>>>*, std::vector<unsigned char, std::allocator<unsigned char>> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/LTO/LTOBackend.cpp:651:71
+#19 0x000055a10431c766 runThinLTOBackend(clang::DiagnosticsEngine&, llvm::ModuleSummaryIndex*, llvm::Module*, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, clang::BackendAction) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1200:62
+#20 0x000055a10431cb90 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1239:26
+#21 0x000055a10587333e clang::CodeGenAction::ExecuteAction() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/CodeGenAction.cpp:1242:20
+#22 0x000055a104e7aad3 clang::FrontendAction::Execute() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/FrontendAction.cpp:1062:38
+#23 0x000055a104db0a94 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/CompilerInstance.cpp:1048:42
+#24 0x000055a105009a28 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/FrontendTool/ExecuteCompilerInvocation.cpp:264:38
+#25 0x000055a100939969 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/cc1_main.cpp:251:40
+#26 0x000055a100926cab ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:366:20
+#27 0x000055a100926e95 clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:507:5
+#28 0x000055a10092847f int llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::callback_fn<clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)>(long, llvm::SmallVectorImpl<char const*>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:47:3
+#29 0x000055a104c479eb llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:69:3
+#30 0x000055a104c46734 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:32
+#31 0x000055a104c46c98 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()>(long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:46:40
+#32 0x000055a102ddfc0e llvm::function_ref<void ()>::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:68:62
+#33 0x000055a103f26793 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:427:10
+#34 0x000055a104c46920 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:7
+#35 0x000055a104be9a83 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:199:22
+#36 0x000055a104be9daf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:253:62
+#37 0x000055a104bfbe20 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Driver.cpp:1867:28
+#38 0x000055a10092802b clang_main(int, char**, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:542:39
+#39 0x000055a10095c412 main /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/tools/clang/tools/driver/clang-driver.cpp:15:58
+#40 0x00007f132bd6718a __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#41 0x00007f132bd67245 call_init ./csu/../csu/libc-start.c:128:20
+#42 0x00007f132bd67245 __libc_start_main ./csu/../csu/libc-start.c:368:5
+#43 0x000055a100925261 _start (/usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang+++0x16d5261)
+clang++: error: clang frontend command failed with exit code 134 (use -v to see invocation)
+clang version 17.0.0 (https://github.com/llvm/llvm-project.git c5ce5b83f871165f6d56a88bdcb448609f6cd6f7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin
+clang++: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
+clang++: /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:67: bool llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(const llvm::GlobalValue*, llvm::ValueInfo): Assertion `(!GlobalsToImport->count(const_cast<GlobalValue *>(SGV)) || !isNonRenamableLocal(*SGV)) && "Attempting to promote non-renamable local"' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang++ -fthinlto-index=indices/mimalloc-166807693.o.thinlto.bc -x ir summaries/mimalloc-166807693.o -o indices/mimalloc-166807693.o -O2 -c
+ #0 0x0000563718b54794 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:602:22
+ #1 0x0000563718b54b8e PrintStackTraceSignalHandler(void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:676:1
+ #2 0x0000563718b52556 llvm::sys::RunSignalHandlers() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Signals.cpp:104:20
+ #3 0x0000563718b540d1 llvm::sys::CleanupOnSignal(unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:367:31
+ #4 0x0000563718a9313c (anonymous namespace)::CrashRecoveryContextImpl::HandleCrash(int, unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:73:5
+ #5 0x0000563718a935cb CrashRecoverySignalHandler(int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:391:1
+ #6 0x00007f22ceb5bf90 (/lib/x86_64-linux-gnu/libc.so.6+0x3bf90)
+ #7 0x00007f22cebaaccc __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #8 0x00007f22ceb5bef2 raise ./signal/../sysdeps/posix/raise.c:27:6
+ #9 0x00007f22ceb46472 abort ./stdlib/abort.c:81:7
+#10 0x00007f22ceb46395 _nl_load_domain ./intl/loadmsgcat.c:1177:9
+#11 0x00007f22ceb54df2 (/lib/x86_64-linux-gnu/libc.so.6+0x34df2)
+#12 0x000056371e2292a4 llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(llvm::GlobalValue const*, llvm::ValueInfo) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:75:12
+#13 0x000056371e229d5d llvm::FunctionImportGlobalProcessing::processGlobalForThinLTO(llvm::GlobalValue&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:291:28
+#14 0x000056371e22a1ed llvm::FunctionImportGlobalProcessing::processGlobalsForThinLTO() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:338:39
+#15 0x000056371e22a4ae llvm::FunctionImportGlobalProcessing::run() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:358:10
+#16 0x000056371e22a51b llvm::renameModuleForThinLTO(llvm::Module&, llvm::ModuleSummaryIndex const&, bool, llvm::SetVector<llvm::GlobalValue*, std::vector<llvm::GlobalValue*, std::allocator<llvm::GlobalValue*>>, llvm::DenseSet<llvm::GlobalValue*, llvm::DenseMapInfo<llvm::GlobalValue*, void>>>*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:366:31
+#17 0x000056371a678e4c llvm::FunctionImporter::importFunctions(llvm::Module&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/IPO/FunctionImport.cpp:1373:5
+#18 0x000056371a451c89 llvm::lto::thinBackend(llvm::lto::Config const&, unsigned int, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, llvm::Module&, llvm::ModuleSummaryIndex const&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&, llvm::DenseMap<unsigned long, llvm::GlobalValueSummary*, llvm::DenseMapInfo<unsigned long, void>, llvm::detail::DenseMapPair<unsigned long, llvm::GlobalValueSummary*>> const&, llvm::MapVector<llvm::StringRef, llvm::BitcodeModule, llvm::DenseMap<llvm::StringRef, unsigned int, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, unsigned int>>, std::vector<std::pair<llvm::StringRef, llvm::BitcodeModule>, std::allocator<std::pair<llvm::StringRef, llvm::BitcodeModule>>>>*, std::vector<unsigned char, std::allocator<unsigned char>> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/LTO/LTOBackend.cpp:651:71
+#19 0x0000563718e89766 runThinLTOBackend(clang::DiagnosticsEngine&, llvm::ModuleSummaryIndex*, llvm::Module*, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, clang::BackendAction) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1200:62
+#20 0x0000563718e89b90 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1239:26
+#21 0x000056371a3e033e clang::CodeGenAction::ExecuteAction() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/CodeGenAction.cpp:1242:20
+#22 0x00005637199e7ad3 clang::FrontendAction::Execute() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/FrontendAction.cpp:1062:38
+#23 0x000056371991da94 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/CompilerInstance.cpp:1048:42
+#24 0x0000563719b76a28 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/FrontendTool/ExecuteCompilerInvocation.cpp:264:38
+#25 0x00005637154a6969 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/cc1_main.cpp:251:40
+#26 0x0000563715493cab ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:366:20
+#27 0x0000563715493e95 clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:507:5
+#28 0x000056371549547f int llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::callback_fn<clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)>(long, llvm::SmallVectorImpl<char const*>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:47:3
+#29 0x00005637197b49eb llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:69:3
+#30 0x00005637197b3734 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:32
+#31 0x00005637197b3c98 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()>(long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:46:40
+#32 0x000056371794cc0e llvm::function_ref<void ()>::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:68:62
+#33 0x0000563718a93793 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:427:10
+#34 0x00005637197b3920 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:7
+#35 0x0000563719756a83 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:199:22
+#36 0x0000563719756daf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:253:62
+#37 0x0000563719768e20 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Driver.cpp:1867:28
+#38 0x000056371549502b clang_main(int, char**, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:542:39
+#39 0x00005637154c9412 main /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/tools/clang/tools/driver/clang-driver.cpp:15:58
+#40 0x00007f22ceb4718a __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#41 0x00007f22ceb47245 call_init ./csu/../csu/libc-start.c:128:20
+#42 0x00007f22ceb47245 __libc_start_main ./csu/../csu/libc-start.c:368:5
+#43 0x0000563715492261 _start (/usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang+++0x16d5261)
+clang++: error: clang frontend command failed with exit code 134 (use -v to see invocation)
+clang version 17.0.0 (https://github.com/llvm/llvm-project.git c5ce5b83f871165f6d56a88bdcb448609f6cd6f7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin
+clang++: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
+clang++: /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:67: bool llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(const llvm::GlobalValue*, llvm::ValueInfo): Assertion `(!GlobalsToImport->count(const_cast<GlobalValue *>(SGV)) || !isNonRenamableLocal(*SGV)) && "Attempting to promote non-renamable local"' failed.
+PLEASE submit a bug report to https://github.com/llvm/llvm-project/issues/ and include the crash backtrace, preprocessed source, and associated run script.
+Stack dump:
+0.	Program arguments: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang++ -fthinlto-index=indices/runtime315684520.o.thinlto.bc -x ir summaries/runtime315684520.o -o indices/runtime315684520.o -O2 -c
+ #0 0x0000564e82010794 llvm::sys::PrintStackTrace(llvm::raw_ostream&, int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:602:22
+ #1 0x0000564e82010b8e PrintStackTraceSignalHandler(void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:676:1
+ #2 0x0000564e8200e556 llvm::sys::RunSignalHandlers() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Signals.cpp:104:20
+ #3 0x0000564e820100d1 llvm::sys::CleanupOnSignal(unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/Unix/Signals.inc:367:31
+ #4 0x0000564e81f4f13c (anonymous namespace)::CrashRecoveryContextImpl::HandleCrash(int, unsigned long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:73:5
+ #5 0x0000564e81f4f5cb CrashRecoverySignalHandler(int) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:391:1
+ #6 0x00007f7e66d79f90 (/lib/x86_64-linux-gnu/libc.so.6+0x3bf90)
+ #7 0x00007f7e66dc8ccc __pthread_kill_implementation ./nptl/pthread_kill.c:44:76
+ #8 0x00007f7e66d79ef2 raise ./signal/../sysdeps/posix/raise.c:27:6
+ #9 0x00007f7e66d64472 abort ./stdlib/abort.c:81:7
+#10 0x00007f7e66d64395 _nl_load_domain ./intl/loadmsgcat.c:1177:9
+#11 0x00007f7e66d72df2 (/lib/x86_64-linux-gnu/libc.so.6+0x34df2)
+#12 0x0000564e876e52a4 llvm::FunctionImportGlobalProcessing::shouldPromoteLocalToGlobal(llvm::GlobalValue const*, llvm::ValueInfo) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:75:12
+#13 0x0000564e876e5d5d llvm::FunctionImportGlobalProcessing::processGlobalForThinLTO(llvm::GlobalValue&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:291:28
+#14 0x0000564e876e61ed llvm::FunctionImportGlobalProcessing::processGlobalsForThinLTO() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:338:39
+#15 0x0000564e876e64ae llvm::FunctionImportGlobalProcessing::run() /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:358:10
+#16 0x0000564e876e651b llvm::renameModuleForThinLTO(llvm::Module&, llvm::ModuleSummaryIndex const&, bool, llvm::SetVector<llvm::GlobalValue*, std::vector<llvm::GlobalValue*, std::allocator<llvm::GlobalValue*>>, llvm::DenseSet<llvm::GlobalValue*, llvm::DenseMapInfo<llvm::GlobalValue*, void>>>*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/Utils/FunctionImportUtils.cpp:366:31
+#17 0x0000564e83b34e4c llvm::FunctionImporter::importFunctions(llvm::Module&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Transforms/IPO/FunctionImport.cpp:1373:5
+#18 0x0000564e8390dc89 llvm::lto::thinBackend(llvm::lto::Config const&, unsigned int, std::function<llvm::Expected<std::unique_ptr<llvm::CachedFileStream, std::default_delete<llvm::CachedFileStream>>> (unsigned int, llvm::Twine const&)>, llvm::Module&, llvm::ModuleSummaryIndex const&, llvm::StringMap<std::unordered_set<unsigned long, std::hash<unsigned long>, std::equal_to<unsigned long>, std::allocator<unsigned long>>, llvm::MallocAllocator> const&, llvm::DenseMap<unsigned long, llvm::GlobalValueSummary*, llvm::DenseMapInfo<unsigned long, void>, llvm::detail::DenseMapPair<unsigned long, llvm::GlobalValueSummary*>> const&, llvm::MapVector<llvm::StringRef, llvm::BitcodeModule, llvm::DenseMap<llvm::StringRef, unsigned int, llvm::DenseMapInfo<llvm::StringRef, void>, llvm::detail::DenseMapPair<llvm::StringRef, unsigned int>>, std::vector<std::pair<llvm::StringRef, llvm::BitcodeModule>, std::allocator<std::pair<llvm::StringRef, llvm::BitcodeModule>>>>*, std::vector<unsigned char, std::allocator<unsigned char>> const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/LTO/LTOBackend.cpp:651:71
+#19 0x0000564e82345766 runThinLTOBackend(clang::DiagnosticsEngine&, llvm::ModuleSummaryIndex*, llvm::Module*, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, clang::BackendAction) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1200:62
+#20 0x0000564e82345b90 clang::EmitBackendOutput(clang::DiagnosticsEngine&, clang::HeaderSearchOptions const&, clang::CodeGenOptions const&, clang::TargetOptions const&, clang::LangOptions const&, llvm::StringRef, llvm::Module*, clang::BackendAction, llvm::IntrusiveRefCntPtr<llvm::vfs::FileSystem>, std::unique_ptr<llvm::raw_pwrite_stream, std::default_delete<llvm::raw_pwrite_stream>>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/BackendUtil.cpp:1239:26
+#21 0x0000564e8389c33e clang::CodeGenAction::ExecuteAction() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/CodeGen/CodeGenAction.cpp:1242:20
+#22 0x0000564e82ea3ad3 clang::FrontendAction::Execute() /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/FrontendAction.cpp:1062:38
+#23 0x0000564e82dd9a94 clang::CompilerInstance::ExecuteAction(clang::FrontendAction&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Frontend/CompilerInstance.cpp:1048:42
+#24 0x0000564e83032a28 clang::ExecuteCompilerInvocation(clang::CompilerInstance*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/FrontendTool/ExecuteCompilerInvocation.cpp:264:38
+#25 0x0000564e7e962969 cc1_main(llvm::ArrayRef<char const*>, char const*, void*) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/cc1_main.cpp:251:40
+#26 0x0000564e7e94fcab ExecuteCC1Tool(llvm::SmallVectorImpl<char const*>&, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:366:20
+#27 0x0000564e7e94fe95 clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:507:5
+#28 0x0000564e7e95147f int llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::callback_fn<clang_main(int, char**, llvm::ToolContext const&)::'lambda'(llvm::SmallVectorImpl<char const*>&)>(long, llvm::SmallVectorImpl<char const*>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:47:3
+#29 0x0000564e82c709eb llvm::function_ref<int (llvm::SmallVectorImpl<char const*>&)>::operator()(llvm::SmallVectorImpl<char const*>&) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:69:3
+#30 0x0000564e82c6f734 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:32
+#31 0x0000564e82c6fc98 void llvm::function_ref<void ()>::callback_fn<clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const::'lambda'()>(long) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:46:40
+#32 0x0000564e80e08c0e llvm::function_ref<void ()>::operator()() const /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/include/llvm/ADT/STLFunctionalExtras.h:68:62
+#33 0x0000564e81f4f793 llvm::CrashRecoveryContext::RunSafely(llvm::function_ref<void ()>) /usr/local/google/home/nikitanazarov/Projects/llvm-project/llvm/lib/Support/CrashRecoveryContext.cpp:427:10
+#34 0x0000564e82c6f920 clang::driver::CC1Command::Execute(llvm::ArrayRef<std::optional<llvm::StringRef>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>*, bool*) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Job.cpp:439:7
+#35 0x0000564e82c12a83 clang::driver::Compilation::ExecuteCommand(clang::driver::Command const&, clang::driver::Command const*&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:199:22
+#36 0x0000564e82c12daf clang::driver::Compilation::ExecuteJobs(clang::driver::JobList const&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&, bool) const /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Compilation.cpp:253:62
+#37 0x0000564e82c24e20 clang::driver::Driver::ExecuteCompilation(clang::driver::Compilation&, llvm::SmallVectorImpl<std::pair<int, clang::driver::Command const*>>&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/lib/Driver/Driver.cpp:1867:28
+#38 0x0000564e7e95102b clang_main(int, char**, llvm::ToolContext const&) /usr/local/google/home/nikitanazarov/Projects/llvm-project/clang/tools/driver/driver.cpp:542:39
+#39 0x0000564e7e985412 main /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/tools/clang/tools/driver/clang-driver.cpp:15:58
+#40 0x00007f7e66d6518a __libc_start_call_main ./csu/../sysdeps/nptl/libc_start_call_main.h:74:3
+#41 0x00007f7e66d65245 call_init ./csu/../csu/libc-start.c:128:20
+#42 0x00007f7e66d65245 __libc_start_main ./csu/../csu/libc-start.c:368:5
+#43 0x0000564e7e94e261 _start (/usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang+++0x16d5261)
+clang++: error: clang frontend command failed with exit code 134 (use -v to see invocation)
+clang version 17.0.0 (https://github.com/llvm/llvm-project.git c5ce5b83f871165f6d56a88bdcb448609f6cd6f7)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin
+clang++: note: diagnostic msg: Error generating preprocessed source(s) - no preprocessable inputs.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+warning: overriding the module target triple with x86_64-unknown-linux-gnu [-Woverride-module]
+1 warning generated.
+ld.lld: error: undefined symbol: main
+>>> referenced by /lib/x86_64-linux-gnu/Scrt1.o:(_start)
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)

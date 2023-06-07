@@ -1,0 +1,2 @@
+lldb /usr/local/google/home/nikitanazarov/Projects/llvm-project/build/bin/clang++
+r  -fthinlto-index=indices/bitcodeDump.o.thinlto.bc -x ir summaries/bitcodeDump.o  -o indices/bitcodeDump.o -O2 -c

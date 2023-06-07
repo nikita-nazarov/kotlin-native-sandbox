@@ -1,0 +1,40 @@
+Creating summary for tmp/bitcodeDump.bc
+Creating summary for tmp/common_gc600123930.bc
+Creating summary for tmp/compiler_interface-2022884062.bc
+Creating summary for tmp/concurrent_ms_gc-527218591.bc
+Creating summary for tmp/constants970147242.bc
+Creating summary for tmp/exceptionsSupport-802272133.bc
+Creating summary for tmp/experimental_memory_manager-1531902544.bc
+Creating summary for tmp/launcher1329509210.bc
+Creating summary for tmp/libbacktrace-541439398.bc
+Creating summary for tmp/mimalloc-166807693.bc
+Creating summary for tmp/opt_alloc1143743615.bc
+Creating summary for tmp/runtime315684520.bc
+Creating summary for tmp/source_info_libbacktrace-1598672019.bc
+Creating indices
+Optimising summaries/bitcodeDump.o
+RUNNING THIN BACKEND
+Optimising summaries/common_gc600123930.o
+RUNNING THIN BACKEND
+Optimising summaries/compiler_interface-2022884062.o
+RUNNING THIN BACKEND
+Optimising summaries/concurrent_ms_gc-527218591.o
+RUNNING THIN BACKEND
+Optimising summaries/constants970147242.o
+RUNNING THIN BACKEND
+Optimising summaries/exceptionsSupport-802272133.o
+RUNNING THIN BACKEND
+Optimising summaries/experimental_memory_manager-1531902544.o
+RUNNING THIN BACKEND
+Optimising summaries/launcher1329509210.o
+RUNNING THIN BACKEND
+Optimising summaries/libbacktrace-541439398.o
+RUNNING THIN BACKEND
+Optimising summaries/mimalloc-166807693.o
+RUNNING THIN BACKEND
+Optimising summaries/opt_alloc1143743615.o
+RUNNING THIN BACKEND
+Optimising summaries/runtime315684520.o
+RUNNING THIN BACKEND
+Optimising summaries/source_info_libbacktrace-1598672019.o
+RUNNING THIN BACKEND
